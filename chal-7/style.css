@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&display=swap');
+
+.main-container {
+    max-width: 1128;
+    /* border: 2px solid black ; */
+    margin: 0 auto;
+    width: 100%;
+}
+.top-flex {
+    min-height: 660px;
+    background-color: #F3EED9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.center-box{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+}
+.top-flex h1{
+    font-family: "Roboto";
+}
+.large-text{
+    font-family: "Playfair Display SC";
+    font-size: 3rem;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 5rem;
+    border: 2px solid yellow;
+    width: 80%;
+    
+}
+.row{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.text-box{
+    
+    width:40%;
+    /* border: 2px solid red; */
+}
+.white { 
+    width: 100%;
+    background-color: aliceblue;
+}
+.brown { 
+    color: #ffffff;
+    width: 100%;
+    background-color:  #824936; 
+}
+.green { 
+    color: #ffffff;
+    width: 100%;
+    background-color: #222C2A; 
+}
