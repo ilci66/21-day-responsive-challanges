@@ -133,8 +133,8 @@ header {
     margin-top: 0.1rem;
 }
 .nav__list {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     margin:0;
     padding:0;
     list-style: none;
@@ -213,10 +213,24 @@ header {
 
     .nav {
         visibility: visible;
+        position: relative;
+        justify-content: flex-end;
         display: flex;
         height: auto;
+        align-items: center;
     }
-
+    /* don't forget to get rid of the margins, they mess up everyhting */
+    .nav__list {
+        display: flex;
+        margin: 0;
+    }
+    /* it's centering it but doesn't look that good at least for this project */
+    /* .nav__list--primary {
+        margin: 0 auto;
+    } */
+    .nav__item {
+        margin:0;
+    }
     .row {
         display: flex;
         justify-content: space-between;
