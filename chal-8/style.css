@@ -122,26 +122,43 @@ header {
    Works the same :) */
 .nav {
     display: inline-block;
-    margin-left: -2.3rem; 
+    /* margin-left: -2.3rem;  */
     visibility: hidden;
     height: 0;
     position: absolute;
+    font-size:1rem;
 }
 .nav__item {
-    padding: 0.4rem;
+    padding: 0.2rem;
+    margin-top: 0.1rem;
 }
 .nav__list {
     display: flex;
     flex-direction: column;
+    margin:0;
+    padding:0;
     list-style: none;
 }
 .nav__link {
     color:#FFF;
     text-transform: uppercase;
-    margin: 1rem auto;
+    /* margin: 1rem auto; */
     text-decoration: none;
 }
+.nav__link--button {
+    padding: .25em .75em;
+    background: #fff;
+    color: #23424A;
+    border-radius: 100px;
+}
+.nav__link:hover,
+.nav__link:focus {
+    opacity: 0.55;
+}
 
+.nav__list--primary {
+    margin-bottom: 1.4rem;
+}
 .nav--visible {
     visibility: visible;
     height: auto;
